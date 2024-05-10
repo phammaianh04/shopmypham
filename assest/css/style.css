@@ -159,8 +159,6 @@
     width: 100%;
     vertical-align: middle;
 }
-
-
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -223,3 +221,10 @@
 .list-img {
     display: flex;
 }
+
+
+
+
+
+
+
