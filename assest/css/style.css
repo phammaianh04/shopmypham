@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: #162818;
+    background-color: #1f3a22;
     width: auto;
     height: 26px;
     position: relative;
@@ -63,7 +63,7 @@
 
 .center__header-li {
     list-style: none;
-    color: rgb(24, 23, 23);
+    color: rgb(64, 63, 63);
 
 }
 
@@ -90,7 +90,7 @@
 
 .center__header-li a {
     text-decoration: none;
-    color: rgb(24, 23, 23);
+    color: rgb(64, 63, 63);
 }
 
 .center__header-li .center__header-span {
@@ -116,7 +116,9 @@
     width: 190px;
     line-height: 50px;
 }
-
+.fa-chevron-down {
+    color: rgb(64, 63, 63);
+}
 .bottom__header-menu a {
     color: rgb(0, 0, 0);
     text-decoration: none;
