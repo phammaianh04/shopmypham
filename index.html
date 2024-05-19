@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assest/css/style.css">
     <link rel="stylesheet" href="assest/css/responsive.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="responsive.js"></script>
     <title>DOVA</title>
 </head>
 
@@ -27,7 +26,14 @@
             <nav class="center__header">
                 <ul class="center__header-ul">
                     <li class="icon_toggle">
-                        <i class="fa-solid fa-bars"></i>
+                        <div id="icon_toggle-mySidenav" class="icon_toggle-sidenav">
+                            <a href="#" class="icon_toggle-closebtn" onclick="closeIcon()">&times;</a>
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                          </div>
+                        <span style="font-size:20px;cursor:pointer" onclick="openIcon()">&#9776;</span>
                     </li>
                     <li class="icon-backend">
                         <a href="back-end/analytics.html"><i class="fa-brands fa-waze"></i></a>
@@ -422,6 +428,8 @@
             </div>
         </div>
     </div>
+    
+    <script src="assest/javascript/responsive.js"></script>
     <script src="assest/javascript/script.js"></script>
 </body>
 
