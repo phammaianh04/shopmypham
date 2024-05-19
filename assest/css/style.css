@@ -57,18 +57,22 @@
     max-width: 1300px;
     position: relative;
     width: 90%;
+    margin: 0px 10px;
     margin-left: 4%;
-
+    
+}
+.icon_toggle {
+    list-style: none;
+    cursor: pointer;
 }
 .icon-backend {
     list-style: none;
 }
 .center__header-li {
     list-style: none;
-    color: rgb(64, 63, 63);
-    
-
+    color: rgb(198, 52, 52);
 }
+
 .center__header-li-space {
     list-style: none;
     height: 20px;
@@ -82,11 +86,14 @@
 .center__header-li-search {
     margin-right: 50px;
     margin-left: 50px;
+    
 }
 .center__header-li-search .search-header {
-    width: 260px;
+    
+    width: 300px;
+    max-width: 300px;
     height: 40px;
-    border-radius: 40px;
+    border-radius: 42px;
 
 }
 
@@ -802,9 +809,9 @@ ul.maybe li:hover img {
     margin-right: 20px;
     padding: 20px ;
 }
+
 .footer-bottom-support-right {
    padding-left: 150px;
-   
    margin-top: 10px;
    display: flex;
 }
