@@ -15,12 +15,11 @@
 }
 
 .top__header {
-
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: #1f3a22;
-    width: auto;
+    width: 100%;
     height: 26px;
     position: relative;
 }
@@ -28,11 +27,12 @@
 .top__header-sale {
     font-size: 14px;
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 5px;
     color: white;
 }
 
-.space {
+.top__header-sale_space {
     width: 3px;
     height: 3px;
     min-width: 3px;
@@ -70,7 +70,7 @@
 }
 .center__header-li {
     list-style: none;
-    color: rgb(198, 52, 52);
+    color: rgb(64, 63, 63);
 }
 
 .center__header-li-space {
@@ -293,7 +293,7 @@
 /* list danh mục */
 .grid {
     width: 360px;
-    height: 764px;
+    height: 76%;
     margin-left: 30px;
 }
 
@@ -386,8 +386,9 @@
 }
 .product-price {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 23px;
     margin-bottom: 16px;
+    color: #cd2e98;
 }
 
 .product-short-description {
@@ -566,6 +567,8 @@ ul.products li .product-info .product-info-price {
     font-size: 17px;
     margin-top: 10px;
     margin-bottom: 15px;
+    text-align: center;
+    color: #d55392;
 }
 .see-more a {
     text-align: center;
@@ -647,13 +650,12 @@ ul.products li .product-info .product-info-price {
     margin-bottom: 15px;
 }
 
- /* maybe */
+/* maybe */
 ul.maybe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    
 }
 ul.maybe li {
     flex-basis: 12%;
@@ -661,7 +663,6 @@ ul.maybe li {
     padding-right: 1px;
     box-sizing: border-box;
     margin-bottom: 18px;
-    margin-top: 172px;
 }
 ul.maybe li img {
     max-width: 100%;
@@ -674,8 +675,9 @@ ul.maybe li img {
 ul.maybe li:hover img {
     transform: scale(1.1);
 }
+
 .huong {
-    font-size: 12px;
+    font-size: 23px;
     padding: 10px 15px;
     color: rgb(64, 63, 64);
     border: 2px solid rgb(64, 63, 64);
@@ -821,37 +823,42 @@ ul.maybe li:hover img {
 
 .icon_toggle-sidenav {
     height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #f6f1f1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 .icon_toggle-sidenav a {
     padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1b1b1b;
+    display: block;
+    transition: 0.3s;
 }
 
 .icon_toggle-sidenav a:hover {
-    color: #ee4848;
-  }
-  .icon_toggle-sidenav .icon_toggle-closebtn {
+    color: #ec5b9f;
+}
+
+.icon_toggle-sidenav .icon_toggle-closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  @media screen and (max-height: 450px) {
+}
+
+.icon_toggle-sidenav a {
+    font-size: 18px;
+}
+@media screen and (max-height: 450px) {
     .icon_toggle-sidenav {padding-top: 15px;}
     .icon_toggle-sidenav a {font-size: 18px;}
-  }
+}
   
